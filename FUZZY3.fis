@@ -13,29 +13,29 @@ DefuzzMethod='centroid'
 
 [Input1]
 Name='error'
-Range=[-110 110]
+Range=[-3.8 3.8]
 NumMFs=3
-MF1='mf1':'gauss2mf',[37.37 -121 37.37 -99]
-MF2='mf2':'gauss2mf',[37.37 -11 37.37 11]
-MF3='mf3':'gauss2mf',[37.37 99 37.37 121]
+MF1='mf1':'gauss2mf',[1.291 -4.18 1.291 -3.42]
+MF2='mf2':'gauss2mf',[1.291 -0.38 1.291 0.38]
+MF3='mf3':'gauss2mf',[1.291 3.42 1.291 4.18]
 
 [Input2]
 Name='input2'
-Range=[-50 50]
+Range=[-3 3]
 NumMFs=3
-MF1='mf1':'gauss2mf',[16.98 -55 16.98 -45]
-MF2='mf2':'gauss2mf',[16.98 -5 16.98 5]
-MF3='mf3':'gauss2mf',[16.98 45 16.98 55]
+MF1='mf1':'gauss2mf',[1.019 -3.3 1.019 -2.7]
+MF2='mf2':'gauss2mf',[1.019 -0.3 1.019 0.3]
+MF3='mf3':'gauss2mf',[1.019 2.7 1.019 3.3]
 
 [Output1]
 Name='output1'
-Range=[-1 1]
+Range=[-5 5]
 NumMFs=5
-MF1='mf1':'gauss2mf',[0.1699 -1.05 0.1699 -0.95]
-MF2='mf2':'gauss2mf',[0.1699 -0.55 0.1699 -0.45]
-MF3='mf3':'gauss2mf',[0.1699 -0.05 0.1699 0.05]
-MF4='mf4':'gauss2mf',[0.1699 0.45 0.1699 0.55]
-MF5='mf5':'gauss2mf',[0.1699 0.95 0.1699 1.05]
+MF1='mf1':'gauss2mf',[0.8495 -5.25 0.8495 -4.75]
+MF2='mf2':'gauss2mf',[0.8495 -2.75 0.8495 -2.25]
+MF3='mf3':'gauss2mf',[0.8495 -0.25 0.8495 0.25]
+MF4='mf4':'gauss2mf',[0.8495 2.25 0.8495 2.75]
+MF5='mf5':'gauss2mf',[0.8495 4.75 0.8495 5.25]
 
 [Rules]
 1 1, 1 (1) : 1
