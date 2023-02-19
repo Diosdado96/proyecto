@@ -8,3 +8,5 @@ El archivo llamado General velocidad contiene controadores de velocidad para el 
 frecuencia que tiene la señal del sensor de velocidad  me es complicado conseguir un control adecuado.
 
 
+
+
