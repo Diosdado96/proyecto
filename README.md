@@ -1,5 +1,6 @@
 # proyecto
-diseño de controladores
+Diseño de controladores:
+
 El archivo con el nombre General_posicion contiene contiene los diferentes controadores de posición para el equipo de laboratio feedback Ms150.
 Los controladores de posición impementados son: controlador por realimentacion del vector de estados; proporcional, proporcional-integral y proporcional-integral y 
 derivativo; controlador difuso
