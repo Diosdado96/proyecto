@@ -7,6 +7,6 @@ Los controladores de posición implementados son: controlador por realimentacion
 El archivo llamado General velocidad contiene controadores de velocidad para el equipo feedback Ms150. Todavía estan en proceso de mejora, debido al ruido de alta
 frecuencia que tiene la señal del sensor de velocidad  me es complicado conseguir un control adecuado.
 
-
+Dentro de los dos archivos mensionados anteriormente hay un bloque switch que permite cambiar de un controlador a otro que forma parte del archivo.
 
 
